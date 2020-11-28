@@ -1,0 +1,6 @@
+[submodule "rpm/libuv"]
+	path = rpm/libuv
+	url = https://github.com/libuv/libuv.git
+[submodule "rpm/hiredis"]
+	path = rpm/hiredis
+	url = https://github.com/redis/hiredis.git
