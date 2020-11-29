@@ -8,5 +8,5 @@ project(rpm_stateless)
 add_subdirectory(hiredis)
 add_subdirectory(libuv)
 
-add_executable(rpm rpm.c)
+add_executable(rpm rpm.c database_interface.c)
 target_link_libraries(rpm PUBLIC hiredis uv)
