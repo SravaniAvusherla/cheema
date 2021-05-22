@@ -1,0 +1,1000 @@
+  999  kubectl logs rpm
+ 1000  cmake . && make
+ 1001  gdb
+ 1002  gdb rpm
+ 1003  kubectl get services
+ 1004  git status
+ 1005  git clean -xfd
+ 1006  cd hiredis/
+ 1007  git clean -xfd
+ 1008  git restore Makefile
+ 1009  cd ..
+ 1010  cd libuv/
+ 1011  git clean -xfd
+ 1012  cd ..
+ 1013  docker build -t sravaniavusherla/rpm .
+ 1014  docker push sravaniavusherla/rpm
+ 1015  kubectl delete pod rpm
+ 1016  kubectl run rpm --image=docker.io/sravaniavusherla/rpm:latest --port=8080
+ 1017  kubectl get pods
+ 1018  kubectl logs rpm
+ 1019  kubectl exec -it replica-deployment-64c777d84b-kwsgr -- redis-cli get rpm:dbtest
+ 1020  kubectl exec -it replica-deployment-64c777d84b-kwsgr -- /bin/bash
+ 1021  kubectl exec -it redis-master-deployment-79fdd88df7-qjhqm -- /bin/bash
+ 1022  kubectl exec -it welcome-deployment-77c5cb444b-2vrcj -- /bin/bash
+ 1023  kubectl exec -it rpm -- /bin/bash
+ 1024  exit
+ 1025  pwd
+ 1026  ls
+ 1027  cd repo/cheema/
+ 1028  ls
+ 1029  git status
+ 1030  cd rpm/
+ 1031  ls
+ 1032  nedit Dockerfile &
+ 1033  unset -ex
+ 1034  '
+ 1035  docker build -t sravaniavusherla/rpm .
+ 1036  export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"
+ 1037  nedit CMakeLists.txt &
+ 1038  cmake --version
+ 1039  firefox &
+ 1040  cd
+ 1041  cd Downloads/
+ 1042  ls
+ 1043  tar xf cmake-3.19.1.tar.gz 
+ 1044  cd cmake-3.19.1/
+ 1045  ls
+ 1046  ./configure 
+ 1047  cmake --version
+ 1048  apt-cache policy cmake
+ 1049  kill -9 20075
+ 1050  cd
+ 1051  cd repo/cheema/
+ 1052  clear
+ 1053  git status
+ 1054  kubectl get pods
+ 1055  kubectl logs rpm
+ 1056  ls
+ 1057  cd rpm/
+ 1058  ls
+ 1059  docker build -t sravaniavusherla/rpm .
+ 1060  docker push sravaniavusherla:rpm
+ 1061  docker push sravaniavusherla/rpm
+ 1062  kubectl get pods
+ 1063  kubectl delete pod rpm
+ 1064  kubectl run rpm --image=docker.io/sravaniavusherla/rpm:latest --port=8080
+ 1065  kubectl get pods
+ 1066  kubectl logs rpm
+ 1067  docker build -t sravaniavusherla/rpm .
+ 1068  '
+ 1069  docker push sravaniavusherla/rpm
+ 1070  kubectl delete pod rpm
+ 1071  kubectl run rpm --image=docker.io/sravaniavusherla/rpm:latest --port=8080
+ 1072  kubectl get pods
+ 1073  kubectl logs rpm
+ 1074  kubectl get pods
+ 1075  kubectl logs rpm
+ 1076  kubectl get pods
+ 1077  kubectl logs rpm
+ 1078  docker build -t sravaniavusherla/rpm .
+ 1079  docker push sravaniavusherla/rpm
+ 1080  kubectl delete pod rpm
+ 1081  kubectl run rpm --image=docker.io/sravaniavusherla/rpm:latest --port=8080
+ 1082  kubectl get pods
+ 1083  kubectl logs rpm
+ 1084  kubectl get pods
+ 1085  kubectl logs rpm
+ 1086  kubectl exec -it replica-deployment-64c777d84b-kwsgr -- redis-cli get rpm:dbtest
+ 1087  kubectl exec -it replica-deployment-64c777d84b-kwsgr -- redis-cli set rpm:db 5
+ 1088  kubectl get pods
+ 1089  kubectl exec -it redis-master-deployment-79fdd88df7-qjhqm -- redis-cli set rpm:db 5
+ 1090  kubectl exec -it redis-master-deployment-79fdd88df7-qjhqm -- redis-cli get rpm:db
+ 1091  ls
+ 1092  mkdir utilities
+ 1093  cd utilities/
+ 1094  ls
+ 1095  nedit run_test.sh
+ 1096  nedit run_test.sh &
+ 1097  docker build -t sravaniavusherla/rpm .
+ 1098  cd ..
+ 1099  docker build -t sravaniavusherla/rpm .
+ 1100  docker push sravaniavusherla/rpm
+ 1101  kubectl delete pod rpm
+ 1102  kubectl get pods
+ 1103  kubectl run rpm --image=docker.io/sravaniavusherla/rpm:latest --port=8080
+ 1104  kubectl get pods
+ 1105  kubectl logs rpm
+ 1106  docker build -t sravaniavusherla/rpm .
+ 1107  docker push sravaniavusherla/rpm
+ 1108  kubectl delete pod rpm
+ 1109  kubectl run rpm --image=docker.io/sravaniavusherla/rpm:latest --port=8080
+ 1110  kubectl get pods
+ 1111  kubectl logs rpm
+ 1112  kubectl get pods
+ 1113  kubectl logs rpm
+ 1114  git status
+ 1115  rm -rf utilities/
+ 1116  ls
+ 1117  git status
+ 1118  git add database_interface.c 
+ 1119  git add rpm.c 
+ 1120  gitk --all
+ 1121  ls
+ 1122  ls -ltr
+ 1123  git status
+ 1124  cd hiredis/
+ 1125  git status
+ 1126  cd ..
+ 1127  cd libuv/
+ 1128  git status
+ 1129  cd ..
+ 1130  git status
+ 1131  git commit -m "rpm:created db interface for database operations"
+ 1132  git push origin HEAD
+ 1133  git log
+ 1134  '
+ 1135  q
+ 1136  kubectl get pods
+ 1137  kubectl get services
+ 1138  kubectl get pods
+ 1139  clear
+ 1140  ps -eaf | grep kubectl
+ 1141  pwd
+ 1142  clear
+ 1143  cd repo/
+ 1144  ls
+ 1145  clear
+ 1146  ls
+ 1147  cd cheema/
+ 1148  ls
+ 1149  git status
+ 1150  cd rpm/
+ 1151  ls
+ 1152  cd ..
+ 1153  s
+ 1154  ls
+ 1155  cd yaml/
+ 1156  ls
+ 1157  cd ..
+ 1158  ls
+ 1159  cd rpm/
+ 1160  ls
+ 1161  cd
+ 1162  cd Don
+ 1163  cd Downloads/
+ 1164  ls
+ 1165  clear
+ 1166  ls
+ 1167  cd ..
+ 1168  ls
+ 1169  sudo apt update
+ 1170  sudo apt install libc6:i386 libusb-0.1-4 libgconf-2-4 libncurses5 libpython2.7 libtinfo5
+ 1171  firefox &
+ 1172  export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"
+ 1173  firefox &
+ 1174  ps -eaf
+ 1175  export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"
+ 1176  firefox &
+ 1177  cd 
+ 1178  cd Downloads/
+ 1179  ls
+ 1180  ls -ltr
+ 1181  gunzgip CCS10.1.1.00004_linux-x64.tar.gz 
+ 1182  tar -xvf CCS10.1.1.00004_linux-x64.tar.gz 
+ 1183  cd CCS10.1.1.00004_linux-x64/
+ 1184  ls
+ 1185  ls -ltr
+ 1186  ./ccs_setup_10.1.1.00004.run 
+ 1187  sudo apt install libc6:i386 libusb-0.1-4 libgconf-2-4 libncurses5 libpython2.7 libtinfo5
+ 1188  uname -i
+ 1189  sudo apt-get install make
+ 1190  sudo apt-get install libgtk-3-0
+ 1191  cd
+ 1192  cd ..
+ 1193  ll
+ 1194  cd
+ 1195  cd Downloads/
+ 1196  ls
+ 1197  ls -ltr
+ 1198  cp eclipse-cpp-2020-09-R-linux-gtk-x86_64.tar.gz ~/.
+ 1199  ls
+ 1200  cd 
+ 1201  ll
+ 1202  tar xvzf eclipse-cpp-2020-09-R-linux-gtk-x86_64.tar.gz 
+ 1203  cd eclipse/
+ 1204  ls
+ 1205  ./eclipse &
+ 1206  cd
+ 1207  clear
+ 1208  ls
+ 1209  cd
+ 1210  ls
+ 1211  cd repo/
+ 1212  l
+ 1213  ls
+ 1214  clear
+ 1215  ls -la
+ 1216  git log build/
+ 1217  cd build/
+ 1218  ls
+ 1219  cd default/
+ 1220  ls
+ 1221  cd ..
+ 1222  ls
+ 1223  cd ..
+ 1224  ls
+ 1225  clear
+ 1226  pwd
+ 1227  git status
+ 1228  cd cheema/
+ 1229  git status
+ 1230  pwd
+ 1231  cd
+ 1232  pwd
+ 1233  cd
+ 1234  pwd
+ 1235  cd /home
+ 1236  ls
+ 1237  cd cheema/
+ 1238  ls
+ 1239  pwd
+ 1240  ls -ltr
+ 1241  ls
+ 1242  mkdir c-pgm
+ 1243  cd c-pgm/
+ 1244  ls
+ 1245  cd
+ 1246  eclipse 
+ 1247  ls
+ 1248  cd eclipse
+ 1249  ls
+ 1250  ./eclipse 
+ 1251  pwd
+ 1252  ./eclipse  &
+ 1253  pwd
+ 1254  ls
+ 1255  cd repo/
+ 1256  ls
+ 1257  cd build/
+ 1258  ls
+ 1259  cd default/
+ 1260  ls
+ 1261  cd ..
+ 1262  ls
+ 1263  ll
+ 1264  cd cheema/
+ 1265  ls
+ 1266  git branch
+ 1267  git log
+ 1268  ls
+ 1269  less README.md 
+ 1270  ls
+ 1271  cd welcome/
+ 1272  ls
+ 1273  cd ..
+ 1274  ls
+ 1275  cd yaml/
+ 1276  ls
+ 1277  cd kubernetes/
+ 1278  ls
+ 1279  cd ..
+ 1280  ls
+ 1281  cd redis/
+ 1282  ls
+ 1283  ll
+ 1284  cd ..
+ 1285  ls
+ 1286  cd ..
+ 1287  l
+ 1288  ls
+ 1289  cd rpm/
+ 1290  ls
+ 1291  clear
+ 1292  ls
+ 1293  less Dockerfile 
+ 1294  ls
+ 1295  less rpm.c 
+ 1296  ls
+ 1297  less database_interface.c
+ 1298  less CMakeLists.txt 
+ 1299  less Dockerfile 
+ 1300  ls
+ 1301  cd ..
+ 1302  ls
+ 1303  ps -eaf 
+ 1304  kubectl get pods 
+ 1305  docker images
+ 1306  docker build -t sravaniavusherla/welcome .
+ 1307  pwd
+ 1308  ls
+ 1309  cd welcome/
+ 1310  ls
+ 1311  less welcome.c
+ 1312  less README.txt 
+ 1313  less Dockerfile
+ 1314  docker build -t sravaniavusherla/welcome .
+ 1315  docker images
+ 1316  kubectl create cluster --name cheema_multinodes --config ./multi_cluster.yaml
+ 1317  clear
+ 1318  ls
+ 1319  cd ..
+ 1320  ls
+ 1321  cd yaml/
+ 1322  ls
+ 1323  cd kubernetes/
+ 1324  ls
+ 1325  kubectl create cluster --name cheema_multinodes --config ./multi_cluster.yaml
+ 1326  kind create cluster --name cheema_multinodes --config ./multi_cluster.yaml
+ 1327  kubectl get nodes
+ 1328  ls
+ 1329  cd ..
+ 1330  ls
+ 1331  cd redis/
+ 1332  ls
+ 1333  cd ..
+ 1334  clear
+ 1335  ls
+ 1336  cd kubernetes/
+ 1337  docker version
+ 1338  kubectl version
+ 1339  cd /usr/local/bin
+ 1340  ls -ltr
+ 1341  echo $KUBECONFIG
+ 1342  echo $HOME
+ 1343  ls -ltr $HOME/.kube
+ 1344  kind create cluster --name testing
+ 1345  kubectl version
+ 1346  kubectl get nodes
+ 1347  kubectl logs testing-control-plane
+ 1348  kubectl get pods 
+ 1349  kubectl get pods  testing-control-plane
+ 1350  kubectl cluster-info 
+ 1351  kubectl version
+ 1352  kubectl delete cluster testing
+ 1353  kubectl delete cluster --name testing
+ 1354  kind delete cluster --name testing
+ 1355  kind create cluster --name cheema_multinodes --config ./multi_cluster.yaml
+ 1356  kubectl cluster-info 
+ 1357  kubectl cluster-info
+ 1358  kubectl cluster-info cheema_multinodes
+ 1359  cd
+ 1360  cd repo/cheema/
+ 1361  ls
+ 1362  cd yaml/
+ 1363  ls
+ 1364  cd kubernetes/
+ 1365  ls
+ 1366  kind create cluster --name cheema_multinodes --config ./multi_cluster.yaml
+ 1367  kind delete cluster --name cheemda_multinodes
+ 1368  kind create cluster --name cheema_multinodes --config ./multi_cluster.yaml
+ 1369  kind delete cluster --name cheemda_multinodes
+ 1370  kind delete cluster --name cheema_multinodes
+ 1371  kind create cluster --name cheema_multinodes --config ./multi_cluster.yaml
+ 1372  kubectl get nodes
+ 1373  kubectl get pods
+ 1374  kubectl get nodes -o wide
+ 1375  kubectl get pods --all-namespaces
+ 1376  kubectl run welcome3 --image=docker.io/sravaniavusherla/welcome:latest --port=8080
+ 1377  kubectl get pods --all-namespaces
+ 1378  kubectl get pods
+ 1379  kubectl describe node   cheemamultinodes-worker
+ 1380  kubectl get pods
+ 1381  kubectl describe pod Welcome3
+ 1382  kubectl describe pod welcome3
+ 1383  kubectl get pods
+ 1384  kubectl describe pod welcome3
+ 1385  kubectl logs welcome3
+ 1386  clear
+ 1387  pwd
+ 1388  cd
+ 1389  pwd
+ 1390  ls
+ 1391  kubectl get nodes
+ 1392  kubectl get services
+ 1393  kubectl delete node cheemamultinodes-worker2
+ 1394  kubectl delete node cheemamultinodes-worker
+ 1395  kubectl get nodes
+ 1396  kind create cluster --name testing
+ 1397  kubectl get nodes
+ 1398  kubectl describe node testing-control-plane
+ 1399  pwd
+ 1400  clear
+ 1401  pwd
+ 1402  cd repo/
+ 1403  ls
+ 1404  pwd
+ 1405  ls
+ 1406  cd cheema/
+ 1407  ls
+ 1408  git status
+ 1409  cd welcome/
+ 1410  ls
+ 1411  clear
+ 1412  ls
+ 1413  less welcome.c
+ 1414  ls
+ 1415  less welcome.yaml 
+ 1416  less README.txt 
+ 1417  less Dockerfile 
+ 1418  ls
+ 1419  clear
+ 1420  ls
+ 1421  docker build -t sravaniavusherla/welcome .
+ 1422  docker image list
+ 1423  ls
+ 1424  vi welcome.c
+ 1425  docker build -t sravaniavusherla/welcome .
+ 1426  docker image list
+ 1427  ls
+ 1428  less welcome.yaml
+ 1429  docker push sravaniavusherla/welcome
+ 1430  kubectl get nodes
+ 1431  kubectl get pods
+ 1432  kubectl run welcome17 --image=docker.io/sravaniavusherla/welcome:latest --port=8080
+ 1433  kubectl get pods
+ 1434  kubectl describe pod welcome17
+ 1435  kubectl get pods
+ 1436  kubectl get pods -o wide
+ 1437  kubectl get pods
+ 1438  kubectl get nodes
+ 1439  kubectl get pods -o wide
+ 1440  kubectl get logs welcome17
+ 1441  kubectl logs welcome17
+ 1442  ls
+ 1443  cd ..
+ 1444  ls
+ 1445  cd yaml/
+ 1446  ls
+ 1447  cd kubernetes/
+ 1448  ls
+ 1449  less multi_cluster.yaml 
+ 1450  kubectl get nodes
+ 1451  kind create cluster --name cheema_multinodes --config ./multi_cluster.yaml
+ 1452  kind create cluster --name multinodes --config ./multi_cluster.yaml
+ 1453  kubectl get nodes
+ 1454  kubectl get nodes -o wide
+ 1455  pwd
+ 1456  ls
+ 1457  cd ..
+ 1458  ls
+ 1459  cd ..
+ 1460  ls
+ 1461  cd yaml/
+ 1462  ls
+ 1463  cd kubernetes/
+ 1464  ls
+ 1465  cd ..
+ 1466  ls
+ 1467  cd ..
+ 1468  ls
+ 1469  cd welcome/
+ 1470  ls
+ 1471  less welcome.yaml
+ 1472  kubectl create -f welcome.yaml
+ 1473  kubectl get pods -o wide
+ 1474  ls
+ 1475  less welcome.yaml 
+ 1476  kubectl get pods -o wide
+ 1477  kubectl logs welcome-deployment-77c5cb444b-bndpn
+ 1478  kubectl logs welcome-deployment-77c5cb444b-g64l9
+ 1479  kubectl delete pod welcome-deployment-77c5cb444b-bndpn
+ 1480  kubectl get pods -o wide
+ 1481  kubectl logs welcome-deployment-77c5cb444b-qnl5f
+ 1482  kubectl kill pod welcome-deployment-77c5cb444b-g64l9
+ 1483  kubectl --help
+ 1484  kubectl get nodes
+ 1485  kubectl get pods
+ 1486  ls
+ 1487  ls -l -h
+ 1488  --block-size
+ 1489  ls --block-size
+ 1490  ls -l -h --block-size
+ 1491  ls -l -h --block-size=KB
+ 1492  docker version
+ 1493  clear
+ 1494  kind create cluster --name ant
+ 1495  pwd
+ 1496  cd/kishore
+ 1497  mkdir
+ 1498  mkdir kishore
+ 1499  cd ..
+ 1500  cd..
+ 1501  ls
+ 1502  cd yaml
+ 1503  ls
+ 1504  cd kubernetes
+ 1505  ls
+ 1506  less multi_cluster.yaml 
+ 1507  vi multi_cluster.yaml 
+ 1508  less multi_cluster.yaml 
+ 1509  git status
+ 1510  git add multi_cluster.yaml 
+ 1511  git status
+ 1512  git log
+ 1513  git commit -m "Added another worker node in kubernetes"
+ 1514  git log
+ 1515  git push -u origin master
+ 1516  git push origin HEAD:refs/for/master
+ 1517  git branch
+ 1518  git status
+ 1519  git log
+ 1520  git push -u origin master
+ 1521  git push origin HEAD:refs/for/main
+ 1522  git log
+ 1523  ls
+ 1524  vi multi_cluster.yaml 
+ 1525  git status
+ 1526  git add  multi_cluster.yaml 
+ 1527  git status
+ 1528  git commit -m "one more node added to cluster configuration"
+ 1529  'git log
+ 1530  git log
+ 1531  git push 
+ 1532  git push origin HEAD
+ 1533  git add multi_cluster.yaml
+ 1534  less
+ 1535  less multi_cluster.yaml
+ 1536  less welcome.yaml
+ 1537  cd welcome
+ 1538  cd
+ 1539  cd repo
+ 1540  cd cheema
+ 1541  ls
+ 1542  cd welcome
+ 1543  ls
+ 1544  cd welcome.c
+ 1545  less welcome.c
+ 1546  vi
+ 1547  vi welcome.c
+ 1548  git add welcome.c
+ 1549  git commit "added sravani and sahithi"
+ 1550  git log
+ 1551  git commit -m "Added Sravani & Sahithi"
+ 1552  git status
+ 1553  git push origin HEAD
+ 1554  git rebase 
+ 1555  less welcome.yaml
+ 1556  git rebase origin 
+ 1557  git pull
+ 1558  git log
+ 1559  git push
+ 1560  git log
+ 1561  git status
+ 1562  ls
+ 1563  less Dockerfile
+ 1564  kubectl get nodes
+ 1565  docker build -t sravaniavusherla/welcome .
+ 1566  docker push sravaniavusherla/welcome
+ 1567  kind create cluster --name antt_multinodes --config ./multi_cluster.y
+ 1568  kind create cluster --name antt_multinodes --config ./multi_cluster.yaml
+ 1569  ls
+ 1570  cd ../
+ 1571  ls
+ 1572  kind create cluster --name antt_multinodes --config yaml/kubernetes/multi_cluster.yaml
+ 1573  ls
+ 1574  cd welcome
+ 1575  cd yaml
+ 1576  less yaml
+ 1577  ls
+ 1578  cd ..
+ 1579  ls
+ 1580  cd yaml
+ 1581  ls
+ 1582  cd kubernetes
+ 1583  ls
+ 1584  less multi_cluster.yaml
+ 1585  kubectl get nodes
+ 1586  kind create cluster --name antt_multinodes --config yaml/multi_cluster.yaml
+ 1587  kind create cluster --name antt_multinodes --config ./multi_cluster.yaml
+ 1588  kubectl get nodes
+ 1589  cd ..
+ 1590  ls
+ 1591  cd rpm
+ 1592  lx
+ 1593  ls
+ 1594  less Dockerfile 
+ 1595  cd ..
+ 1596  cd welcome/
+ 1597  ls
+ 1598  cd ..
+ 1599  ls
+ 1600  cd yaml
+ 1601  ls
+ 1602  cd kubernetes
+ 1603  kubectl get nodes
+ 1604  kubectl get pods -o wid
+ 1605  kubectl get nodes
+ 1606  kubectl create -f welcome_pod_2.yaml
+ 1607  clear
+ 1608  kubectl get nodes
+ 1609  clear
+ 1610  kubectl get nodes
+ 1611  kubectl create -f welcome_pod_2.yaml
+ 1612  cd ..
+ 1613  kubectl create -f welcome_pod_2.yaml
+ 1614  kubectl get nodes
+ 1615  kubectl create -f welcome.yaml'
+ 1616  kubectl get nodes
+ 1617  clear
+ 1618  :q
+ 1619  kubectl get nodes
+ 1620  kubectl create -f welcome_pod.yaml
+ 1621  ..cd
+ 1622  ls
+ 1623  cd yaml
+ 1624  ..cd
+ 1625  ls
+ 1626  cd welcome
+ 1627  kubectl create -f welcome_pod.yaml
+ 1628  kubectl create -f welcome.yaml
+ 1629  ls
+ 1630  welcome.yaml
+ 1631  vi welcome.yaml
+ 1632  kubectl create -f welcome.yaml
+ 1633  kubectl get pods
+ 1634  kubectl get pods -o wide
+ 1635  kubectl delete welcome-deployment-77c5cb444b-6vqwp
+ 1636  kubectl delete pod welcome-deployment-77c5cb444b-6vqwp
+ 1637  kubectl get pods
+ 1638  kubectl get pods -o wide
+ 1639  kubectl delete pod welcome-deployment-77c5cb444b-9p65h
+ 1640  kubectl get pods -o wide
+ 1641  kubectl delete pod welcome-deployment-77c5cb444b-76wzk welcome-deployment-77c5cb444b-gh8p8
+ 1642  kubectl get pods -o wide
+ 1643  kubectl describe pod welcome
+ 1644  kubectl get pods --all-namespaces
+ 1645  kubectl get pods --all-namespaces -o wide
+ 1646  kubectl exec -it welcome-deployment-77c5cb444b-bxff5 -- /bin/bash
+ 1647  ping 10.244.1.3
+ 1648  kubectl get services
+ 1649  ping 10.96.0.1
+ 1650  kubectl exec -it welcome-deployment-77c5cb444b-bxff5 -- /bin/bash
+ 1651  ls
+ 1652  cd repo
+ 1653  ls
+ 1654  cd cheema
+ 1655  ls
+ 1656  cd welcome
+ 1657  ls
+ 1658  man
+ 1659  man repo
+ 1660  man ls
+ 1661  ls
+ 1662  cd kishore
+ 1663  ls kishore
+ 1664  pwd
+ 1665  cat kishore
+ 1666  rm kishore
+ 1667  .cd
+ 1668  less kishore
+ 1669  cd 
+ 1670  cd repo
+ 1671  ls
+ 1672  cd cheema
+ 1673  ls
+ 1674  cd welcome
+ 1675  ls
+ 1676  less kishore
+ 1677  rm kishore
+ 1678  rm -d kishore
+ 1679  ls
+ 1680  cd welcome.c
+ 1681  vi welcome.c
+ 1682  cd welcome
+ 1683  ls
+ 1684  . cd
+ 1685  cd cheema
+ 1686  cd ..
+ 1687  ls
+ 1688  cd yaml
+ 1689  ls
+ 1690  cd kubernetes
+ 1691  ls
+ 1692  cd multi_cluster.yaml
+ 1693  get nodes
+ 1694  kubectl get nodes --all-namespaces
+ 1695  kubectl get nodes
+ 1696  cd repo/cheema/
+ 1697  git status
+ 1698  git diff
+ 1699  clear
+ 1700  git branch
+ 1701  git log
+ 1702  clear
+ 1703  git status
+ 1704  git diff
+ 1705  kubectl get nodes
+ 1706  docker ps
+ 1707  kubectl get nodes
+ 1708  kubectl
+ 1709  kubectl get nodes
+ 1710  env 
+ 1711  ls -ltr .kube
+ 1712  less .kube/config 
+ 1713  kubectl version
+ 1714  docker ps | grep kube-apiserver
+ 1715  echo $KUBECONFIG
+ 1716  ls $HOME/.kube
+ 1717  cd c-pgm/
+ 1718  cd ..
+ 1719  cd .kube/cache/
+ 1720  ls
+ 1721  cd ..
+ 1722  cd -
+ 1723  ls
+ 1724  rm -rf *
+ 1725  kind create cluster --name wslkind
+ 1726  kubectl get nodes
+ 1727  pwd
+ 1728  cd ..
+ 1729  pwd
+ 1730  cd repo/cheema/
+ 1731  ls
+ 1732  cd yaml/
+ 1733  ls
+ 1734  cd kubernetes/
+ 1735  clear
+ 1736  ls
+ 1737  kind create cluster --name rpm_cluster --config multi_cluster.yaml
+ 1738  pwd
+ 1739  cd ..
+ 1740  s
+ 1741  ls
+ 1742  cd ..
+ 1743  ls
+ 1744  cd rpm/
+ 1745  clear
+ 1746  ls
+ 1747  ls -ltr
+ 1748  cd hiredis/
+ 1749  ls
+ 1750  git log async.c
+ 1751  git submodule update
+ 1752  ls
+ 1753  git log async.c
+ 1754  cd ..
+ 1755  ls
+ 1756  git submodule update
+ 1757  git submodule update --init --recursive
+ 1758  clear
+ 1759  ls
+ 1760  git log hiredis/
+ 1761  kubectl get nodes
+ 1762  docker image list
+ 1763  ls
+ 1764  docker build -t sravaniavusherla/rpm .
+ 1765  docker push sravaniavusherla/rpm
+ 1766  kubectl run rpm --image=docker.io/sravaniavusherla/rpm:latest --port=8080
+ 1767  kubectl get pods -o wide
+ 1768  kubectl get nodes -o wide
+ 1769  kubectl get pods -o wide
+ 1770  kubectl logs rpm
+ 1771  cd ..
+ 1772  ls
+ 1773  cd yaml/
+ 1774  ls
+ 1775  cd redis/
+ 1776  ls
+ 1777  ls -ltr
+ 1778  kubectl create -f redis_master.yaml 
+ 1779  kubectl get pods
+ 1780  kubectl get pods -o wide
+ 1781  ls
+ 1782  kubectl create -f redis_replica.yaml 
+ 1783  kubectl get pods -o wide
+ 1784  cd ..
+ 1785  ls
+ 1786  cd welcome/
+ 1787  ls
+ 1788  less welcome.yaml 
+ 1789  cd ..
+ 1790  ls
+ 1791  cd yaml/
+ 1792  ls
+ 1793  cd redis/
+ 1794  ls
+ 1795  kubectl get nodes
+ 1796  kubectl get nodes -o wide
+ 1797  kubectl get pods -o wide
+ 1798  kubectl logs rpm
+ 1799  kubectl delete pod rpm
+ 1800  kubectl get pods -o wide
+ 1801  kubectl run rpm --image=docker.io/sravaniavusherla/rpm:latest --port=8080
+ 1802  kubectl get pods -o wide
+ 1803  kubectl logs rpm
+ 1804  kubectl exec -it redis-replica-deployment-64c777d84b-dvxkg -- redis-cli get rpm:dbtest
+ 1805  ls
+ 1806  less redis_replica.yaml
+ 1807  kubectl exec -it redis-replica-deployment-64c777d84b-q29hc -- redis-cli get rpm:dbtest
+ 1808  kubectl exec -it redis-master-deployment-79fdd88df7-5bts4 -- redis-cli get rpm:dbtest
+ 1809  kubectl exec -it redis-master-deployment-79fdd88df7-5bts4 -- redis-cli get server:name
+ 1810  kubectl exec -it redis-master-deployment-79fdd88df7-5bts4 -- redis-cli get keys*
+ 1811  kubectl exec -it redis-master-deployment-79fdd88df7-5bts4 -- redis-cli get keys
+ 1812  kubectl exec -it redis-master-deployment-79fdd88df7-5bts4 -- redis-cli
+ 1813  ls
+ 1814  cd ..
+ 1815  ls
+ 1816  cd rpm/
+ 1817  ls
+ 1818  less rpm.c
+ 1819  kubectl exec -it redis-master-deployment-79fdd88df7-5bts4 -- redis-cli
+ 1820  kubectl exec -it redis-replica-deployment-64c777d84b-dvxkg -- redis-cli
+ 1821  kubectl exec -it redis-replica-deployment-64c777d84b-q29hc -- redis-cli
+ 1822  kubectl exec -it redis-replica-deployment-64c777d84b-dvxkg -- redis-cli
+ 1823  kubectl logs redis-replica-deployment-64c777d84b-dvxkg
+ 1824  kubectl get nodes -o wide
+ 1825  kubectl get pods -o wide
+ 1826  ls
+ 1827  nedit rpm.c 
+ 1828  vi database_interface.c
+ 1829  ls
+ 1830  docker build -t sravaniavusherla/rpm .
+ 1831  docker push sravaniavusherla/rpm
+ 1832  kubectl get pods -o wide
+ 1833  kubectl delete pod rpmA
+ 1834  kubectl get services
+ 1835  git status
+ 1836  git diff
+ 1837  :Q
+ 1838  clear
+ 1839  ls
+ 1840  kubectl get pods -o wide
+ 1841  kubectl run rpm --image=docker.io/sravaniavusherla/rpm:latest --port=8080
+ 1842  kubectl get pods -o wide
+ 1843  kubectl logs rpm
+ 1844  kubectl get pods -o wide
+ 1845  kubectl logs rpm
+ 1846  kubectl exec -it redis-master-deployment-79fdd88df7-5bts4 -- redis-cli
+ 1847  kubectl exec -it redis-replica-deployment-64c777d84b-dvxkg -- redis-cli
+ 1848  kubectl exec -it redis-replica-deployment-64c777d84b-q29hc -- redis-cli
+ 1849  ls
+ 1850  cd ..
+ 1851  ls
+ 1852  cd yaml/
+ 1853  ls
+ 1854  cd redis/
+ 1855  ls
+ 1856  less redis_replica.yaml
+ 1857  ls
+ 1858  less redis_master_service.yaml 
+ 1859  less redis_master.yaml 
+ 1860  kubectl logs redis-replica-deployment-64c777d84b-q29hc
+ 1861  ls
+ 1862  kubectl create -f redis_master_service.yaml
+ 1863  kubectl get services
+ 1864  kubectl get pods
+ 1865  kubectl logs redis-replica-deployment-64c777d84b-q29hc
+ 1866  kubectl exec -it redis-replica-deployment-64c777d84b-q29hc -- redis-cli
+ 1867  kubectl exec -it redis-replica-deployment-64c777d84b-dvxkg -- redis-cli
+ 1868  kubectl get services
+ 1869  redis-cli 
+ 1870  kubectl get pods -o wide
+ 1871  ping 10.244.4.2
+ 1872  ping 10.96.112.246
+ 1873  git status
+ 1874  git diff
+ 1875  git checkout -- ../../welcome/welcome.yaml
+ 1876  git status
+ 1877  clear
+ 1878  git pull origin HEAD
+ 1879  cd .
+ 1880  cd ..
+ 1881  ls
+ 1882  cd welcome
+ 1883  ls
+ 1884  less welcome.yaml
+ 1885  cd ..
+ 1886  ls
+ 1887  cd rpm
+ 1888  ls
+ 1889  less CMakeLists
+ 1890  less CMakeLists.txt
+ 1891  ls
+ 1892  cd Dockerfile
+ 1893  less Dockerfile
+ 1894  less rpm.c
+ 1895  docker build -t sravaniavusherla/rpm .
+ 1896  ls
+ 1897  less Dockerfile
+ 1898  less CMakeLists.txt
+ 1899  less hiredis
+ 1900  cd hiredis
+ 1901  less hiredis
+ 1902  vi hiredis
+ 1903  ls hiredis
+ 1904  ls
+ 1905  cd
+ 1906  nedit test.c &
+ 1907  gvim test.c
+ 1908  ls -ltr test.c
+ 1909  rm -rf test.c
+ 1910  vi test.c
+ 1911  less test.c
+ 1912  gcc test.c
+ 1913  ls
+ 1914  objdump a.out
+ 1915  objdump -d a.out
+ 1916  vi test.c
+ 1917  gcc test.c
+ 1918  objdump -d a,out
+ 1919  objdump -d a.out
+ 1920  vi test.c
+ 1921  gcc test.c
+ 1922  vi test.c
+ 1923  gcc test.c
+ 1924  objdump -d a.out
+ 1925  :q
+ 1926  clear
+ 1927  vi test.c
+ 1928  gcc test.c
+ 1929  vi test.c
+ 1930  gcc test.c
+ 1931  vi test.c
+ 1932  gcc test.c
+ 1933  vi test.c
+ 1934  gcc test.c
+ 1935  vi test.c
+ 1936  gcc test.c
+ 1937  vi test_access.c
+ 1938  vi test.c
+ 1939  vi test_access.c
+ 1940  vi test.c
+ 1941  vi test_access.c
+ 1942  gcc test.c test_access.c
+ 1943  vi test.c
+ 1944  gcc test.c test_access.c
+ 1945  vi test.c
+ 1946  gcc test.c test_access.c
+ 1947  vi test_access.c 
+ 1948  gcc test.c test_access.c
+ 1949  vi test.c
+ 1950  gcc test.c test_access.c
+ 1951  vi test.c
+ 1952  gcc test.c test_access.c
+ 1953  vi test.c
+ 1954  vi test_access.c 
+ 1955  gcc test.c test_access.c
+ 1956  vi test.c
+ 1957  vi test_access.c 
+ 1958  gcc test.c test_access.c
+ 1959  vi test_access.c 
+ 1960  gcc test.c test_access.c
+ 1961  vi test.c
+ 1962  gcc test.c test_access.c
+ 1963  vi test_access.c 
+ 1964  vi test.c
+ 1965  gcc test.c test_access.c 
+ 1966  ls
+ 1967  objdump -d a.out
+ 1968  vi test.c
+ 1969  gcc test.c test_access.c 
+ 1970  vi test.c
+ 1971  gcc test.c test_access.c 
+ 1972  vi test.c
+ 1973  gcc test.c test_access.c 
+ 1974  vi test.c
+ 1975  gcc test.c test_access.c 
+ 1976  vi test.c
+ 1977  gcc test.c test_access.c 
+ 1978  vi test.c
+ 1979  gcc test.c test_access.c 
+ 1980  vi test.c
+ 1981  gcc test.c test_access.c 
+ 1982  vi test.c
+ 1983  clear
+ 1984  pwd
+ 1985  kubectl get nodes
+ 1986  pwd
+ 1987  cd repo/
+ 1988  ls
+ 1989  cd cheema/
+ 1990  ls
+ 1991  cd yaml/
+ 1992  ls
+ 1993  cd ..
+ 1994  cd rpm/
+ 1995  ls
+ 1996  less Dockerfile 
+ 1997  history
+ 1998  history > ~/command_history.txt
